@@ -38,7 +38,7 @@ header h1 {
 }
 
 
-/* MENU */
+/* menu */
 nav {
     justify-self: center;  
     display: flex;
@@ -204,7 +204,6 @@ nav a:hover, nav a.active {
 }
 
 
-/* --- NOVO BANNER DE IMAGEM PARA O MENU --- */
 .menu-hero {
     background-image: url('../imagens/teste2jpg.jpg'); 
     height: 300px; 
@@ -226,7 +225,7 @@ nav a:hover, nav a.active {
     background: rgba(0,0,0,0.4); 
 }
 
-/*  título dentro do banner */
+
 .menu-hero .section-title {
     position: relative; 
     margin: 0; 
@@ -236,14 +235,14 @@ nav a:hover, nav a.active {
 
 
 
-/* Container para a secção do menu */
+
 .menu-section {
     max-width: 1100px;
     margin: 60px auto; 
     padding: 20px;
 }
 
-/* Título principal da secção*/
+/* Título principal */
 .section-title {
     text-align: center;
     font-size: 36px;
@@ -302,10 +301,10 @@ nav a:hover, nav a.active {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.4); /* escurece a imagem para legibilidade */
+    background: rgba(0,0,0,0.4);
 }
 
-/* Mantém o estilo da section-title dentro do banner */
+
 .contact-hero .section-title {
     position: relative;
     margin: 0;
